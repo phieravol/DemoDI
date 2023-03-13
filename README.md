@@ -47,3 +47,14 @@
 - VD: Bạn có thể sử dụng phương thức AddSingleton(), AddTransient() và AddScoped() để đăng ký các service
 
 #### 4.3: Service Lifetime
+- Service lifetime là các cách thức để xác định thời gian sống (lifetime) của một service được tạo ra bởi DI container.
+
+	-  **Transient**: Thường được sử dụng cho các service có tính chất tạm thời và không lưu trữ trạng thái giữa các yêu cầu. 
+Ví dụ: như các service để xử lý dữ liệu tạm thời, thực hiện các phép tính toán hoặc truy xuất dữ liệu theo yêu cầu.
+    
+	- **Scoped**: DI container sẽ tạo một đối tượng mới cho mỗi yêu cầu trong phạm vi (scope) của nó. 
+Ví dụ, trong ASP.NET Core, mỗi **HTTP request** được coi là một **scope**. Khi scope kết thúc, tất cả các đối tượng được tạo ra trong scope đó cũng sẽ bị thu hồi.
+    
+	- **Singleton**: DI container sẽ tạo một đối tượng duy nhất và tái sử dụng nó cho mọi yêu cầu tiếp theo. Đối tượng này sẽ sống trong suốt vòng đời của ứng dụng.
+    
+	- **Singleton Instance**: Cũng giống như Singleton, tuy nhiên, đối tượng được tạo ra bởi DI container không phải là đối tượng mới, mà là một đối tượng đã được tạo trước đó bởi ứng dụng.
