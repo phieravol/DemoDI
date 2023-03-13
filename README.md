@@ -34,9 +34,9 @@
 
  Là một cách triển khai của IOC, ở đó các phụ thuộc (dependency) được tiêm vào class khi nó cần.
 - Các kiểu dependency injection:
-		- Inject thông qua constructor (thư viện của .Net đã hỗ trợ sẵn)
-		- Inject thông qua setter
-		- Inject thông qua interface
+	- Inject thông qua constructor (thư viện của .Net đã hỗ trợ sẵn)
+	- Inject thông qua setter
+	- Inject thông qua interface
 
 #### 4.1: DI Container
 - Là công cụ quản lý và cung cấp dịch vụ cho các thành phần khác trong ứng dụng (ASP.NET Core có DI Container mặc định là **Microsoft.Extensions.DependencyInjection**)
