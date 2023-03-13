@@ -1,6 +1,6 @@
 # Slot 18: Hướng dẫn sử dụng công cụ Dependency Injection mà .Net cung cấp
 
-# Dependency Injection
+# I. Dependency Injection
 - Overview: **Dependency Injection** (DI) là một trong nhiều cách triển khai **Inversion of Control** (IOC), mà IOC là một design pattern của **Dependency inversion principle** (DIP)
 
 >  DIP là đích đến, IOC là tầm nhìn và DI là con đường cụ thể để đến
