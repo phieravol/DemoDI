@@ -58,3 +58,5 @@ Ví dụ, trong ASP.NET Core, mỗi **HTTP request** được coi là một **sc
 	- **Singleton**: DI container sẽ tạo một đối tượng duy nhất và tái sử dụng nó cho mọi yêu cầu tiếp theo. Đối tượng này sẽ sống trong suốt vòng đời của ứng dụng.
     
 	- **Singleton Instance**: Cũng giống như Singleton, tuy nhiên, đối tượng được tạo ra bởi DI container không phải là đối tượng mới, mà là một đối tượng đã được tạo trước đó bởi ứng dụng.
+	
+- Reference: https://stackoverflow.com/questions/38138100/addtransient-addscoped-and-addsingleton-services-differences
